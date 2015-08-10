@@ -50,8 +50,6 @@ public class ContactUtil {
 		}
 		cursor_sim.close();
 		return list;
-//		(cursor.getString(cursor.getColumnIndex(Phone.NUMBER)));
-//		contactId=cursor.getLong(cursor.getColumnIndex(Phone.CONTACT_ID));
 	}
 	public List<Map<String, Object>> getAddress2(Context context){
 		Uri uri_sim = Uri.parse("content://icc/adn"); //simKa 
