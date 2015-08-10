@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tongxunlu.MainActivity" >
+    <!-- group1 -->
+   <!--  <group android:id="@+id/group1" >
+        <item
+            android:id="@+id/mi1"
+            android:title="item1"/>
+        <item
+            android:id="@+id/mi2"
+            android:title="item2"/>
+    </group>
+ 	group 2
+    <group android:id="@+id/group2" >
+        <item
+            android:id="@+id/mi3"
+            android:title="item3"/>
+        <item
+            android:id="@+id/mi4"
+            android:title="item4"/>
+    </group> -->
+	 <item
+        android:id="@+id/add_people"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/_new"/>
+	<!-- <item 
+	    android:id="@+id/caidan"
+	    android:orderInCategory="100"
+	    android:showAsAction="always"
+	    android:title="SDF"/> -->
+</menu>

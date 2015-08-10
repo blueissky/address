@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.address.activity.AddPelpleActivity" >
+	<item
+        android:id="@+id/save_people"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/_save"/> 
+</menu>
